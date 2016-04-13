@@ -1,0 +1,16 @@
+body {
+  background: url('/css/images/NewRiverGorgeBridge.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.button-collapse {
+  color: #26a69a;
+}

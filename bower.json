@@ -1,0 +1,23 @@
+{
+  "name": "personalweb",
+  "authors": [
+    "Josh Houck <Josh123090@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "Materialize": "materialize#^0.97.6"
+  }
+}
