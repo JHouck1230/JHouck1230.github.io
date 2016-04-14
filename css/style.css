@@ -11,6 +11,10 @@ nav .brand-logo {
   color: #444;
 }
 
+nav ul a {
+  font-size: 20px;
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -48,8 +52,8 @@ p {
 }
 
 .projBtn {
-  width: 600px;
-  height: 100px;
+  width: 75%;
+  height: 85px;
   font-size: 36px;
 }
 

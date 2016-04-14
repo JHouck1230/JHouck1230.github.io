@@ -14,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+  <script src="https://cdn.rawgit.com/krescruz/angular-materialize/master/src/angular-materialize.js"></script>
 	<script src="js/module.js"></script>
 	<script src="js/controllers/aboutCtrl.js"></script>
 	<script src="js/controllers/projCtrl.js"></script>
@@ -22,30 +23,39 @@
 
 </head>
 <body ng-app='webApp' ng-controller='mainCtrl'>
-
-	<nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" ui-sref='about' class="brand-logo">JOSH</a>
-      <ul class="brand-logo center">
-        <a href="https://www.linkedin.com/in/joshua-houck-5588a663"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://github.com/JHouck1230"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/Jhouck1230"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://medium.com/@JHouck"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a ui-sref='about'>About</a></li>
-        <li><a ui-sref='projects'>Projects</a></li>
-        <li><a>Resume</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a ui-sref='about'>About</a></li>
-        <li><a ui-sref='projects'>Projects</a></li>
-        <li><a>Resume</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+	<div class="navbar-fixed">
+		<nav class="white" role="navigation">
+	    <div class="nav-wrapper container">
+	      <a id="logo-container" ui-sref='about' class="brand-logo">JOSH</a>
+	      <ul class="brand-logo center hide-on-med-and-down">
+	        <a href="https://www.linkedin.com/in/joshua-houck-5588a663"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+	        <a href="https://github.com/JHouck1230"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+	        <a href="https://twitter.com/Jhouck1230"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+	        <a href="https://medium.com/@JHouck"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+	      </ul>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a ui-sref='about'>About</a></li>
+	        <li><a ui-sref='projects'>Projects</a></li>
+	        <li><a class="modal-trigger" href="#resume" modal>Resume</a></li>
+	      </ul>
+	      <ul id="nav-mobile" class="side-nav">
+	        <li><a ui-sref='about'>About</a></li>
+	        <li><a ui-sref='projects'>Projects</a></li>
+	        <li><a class="modal-trigger" href="#resume" modal>Resume</a></li>
+	      </ul>
+	      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+	    </div>
+	  </nav>
+	</div>
 
 	<ui-view></ui-view>
+
+  <div id="resume" class="modal">
+    <div class="modal-content">
+      <h4>Josh Houck's Resume</h4>
+			<iframe src="/JoshHouckResume.pdf" width="100%" height="700"></iframe>
+    </div>
+  </div>
+
 </body>
 </html>
