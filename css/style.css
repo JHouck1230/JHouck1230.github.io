@@ -14,3 +14,45 @@ nav .brand-logo {
 .button-collapse {
   color: #26a69a;
 }
+
+.borderDiv {
+	padding: 15px;
+}
+
+#aboutMe {
+	font-size: 28px;
+}
+
+span {
+	font-size: 20px;
+}
+
+.projTitle {
+	background-color: #ffab40;
+}
+
+.demoLink {
+	font-size: 36px;
+}
+
+.card-action {
+	text-align: center;
+}
+
+span.card-title.contactMe {
+	font-size: 28px;
+}
+
+p {
+	font-size: 24px;
+}
+
+.projBtn {
+  width: 600px;
+  height: 100px;
+  font-size: 36px;
+}
+
+#name {
+	font-size: 42px;
+}
