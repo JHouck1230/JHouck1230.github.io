@@ -60,3 +60,8 @@ p {
 #name {
 	font-size: 42px;
 }
+
+iframe {
+	width: 100%;
+	height: 700px;
+}
