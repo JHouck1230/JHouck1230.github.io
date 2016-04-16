@@ -2,6 +2,6 @@
 
 var app = angular.module('webApp');
 
-app.controller('projCtrl', function() {
+app.controller('projCtrl', function($state, $scope) {
 	
 });

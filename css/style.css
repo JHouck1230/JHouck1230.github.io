@@ -1,9 +1,10 @@
 body {
-  background: url('./images/NewRiverGorgeBridge.jpg') no-repeat center center fixed; 
+  background: url('https://i.ytimg.com/vi/hPCotoawhk0/maxresdefault.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 nav ul a,
@@ -11,7 +12,7 @@ nav .brand-logo {
   color: #444;
 }
 
-nav ul a {
+nav ul a, .side-nav a {
   font-size: 20px;
 }
 
@@ -20,7 +21,7 @@ nav ul a {
 }
 
 .borderDiv {
-	padding: 15px;
+	padding: 55px;
 }
 
 #aboutMe {
@@ -32,7 +33,7 @@ span {
 }
 
 .projTitle {
-	background-color: #ffab40;
+	background-color: #0277bd;
 }
 
 .demoLink {
@@ -41,14 +42,11 @@ span {
 
 .card-action {
 	text-align: center;
+	color: #0277bd;
 }
 
 span.card-title.contactMe {
 	font-size: 28px;
-}
-
-p {
-	font-size: 24px;
 }
 
 .projBtn {
@@ -64,4 +62,24 @@ p {
 iframe {
 	width: 100%;
 	height: 700px;
+}
+
+#aboutMeCard {
+  padding: 8px;
+}
+
+button.btn.waves-effect.btn-large.center.projBtn {
+  background-color: #01579b;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #0277bd;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  color: #81d4fa;
+}
+
+.card .card-content p {
+	font-size: 24px;
 }

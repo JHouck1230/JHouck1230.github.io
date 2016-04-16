@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('webApp', ['ui.router', 'ui.materialize']);
+var app = angular.module('webApp', ['ui.router', 'ui.materialize', 'ngAnimate']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
