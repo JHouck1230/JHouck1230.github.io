@@ -2,7 +2,8 @@
 
 var app = angular.module('webApp', ['ui.router', 'ui.materialize', 'ngAnimate']);
 
-app.config(function($stateProvider, $urlRouterProvider) {
+app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+	$locationProvider.html5Mode(true);
 	$stateProvider
 	.state('about', {
 		url: '/',
