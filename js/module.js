@@ -6,13 +6,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 	.state('about', {
 		url: '/',
-		templateUrl: 'html/about.html',
-		controller: 'aboutCtrl'
+		templateUrl: 'html/about.html'
 	})
 	.state('projects', {
 		url: '/projects',
-		templateUrl: 'html/projects.html',
-		controller: 'projCtrl'
+		templateUrl: 'html/projects.html'
 	})
 	$urlRouterProvider.otherwise('/');
 });
