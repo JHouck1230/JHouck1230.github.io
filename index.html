@@ -1,63 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <base href="/">
-	<title>Josh Houck</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <base href="/">
+  	<title>Josh Houck</title>
 
-	<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-	<link rel="stylesheet" href="css/style.css">
+  	<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  	<link rel="stylesheet" href="css/style.css">
 
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
-  <script src="https://cdn.rawgit.com/krescruz/angular-materialize/master/src/angular-materialize.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
-	<script src="js/module.js"></script>
-	<script src="js/controllers/mainCtrl.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="https://cdn.rawgit.com/krescruz/angular-materialize/master/src/angular-materialize.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+  	<script src="js/module.js"></script>
+  	<script src="js/controllers/mainCtrl.js"></script>
 
-</head>
-<body ng-app='webApp' ng-controller='mainCtrl' class="">
-<!-- 	<div class="navbar-fixed">
-		<nav class="" role="navigation">
-	    <div class="nav-wrapper container">
-	      <a id="logo-container" ui-sref='about' class="brand-logo">Josh</a>
-	      <ul class="brand-logo center hide-on-med-and-down">
-	        <a href="https://www.linkedin.com/in/joshua-houck-5588a663" target='_blank'><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-	        <a href="https://github.com/JHouck1230" target='_blank'><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-	        <a href="https://twitter.com/Jhouck1230" target='_blank'><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-	      </ul>
-	      <ul class="right hide-on-med-and-down">
-	        <li><a ui-sref='about'>About</a></li>
-	        <li><a ui-sref='projects'>Projects</a></li>
-	        <li><a class="modal-trigger" href="#resume" modal>Resume</a></li>
-	      </ul>
-	      <ul id="nav-mobile" class="side-nav">
-	        <li><a ui-sref='about'>About</a></li>
-	        <li><a ui-sref='projects'>Projects</a></li>
-	        <li><a class="modal-trigger" href="#resume" modal>Resume</a></li>
-	        <li><a href="https://www.linkedin.com/in/joshua-houck-5588a663"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-	        <li><a href="https://github.com/JHouck1230"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-	        <li><a href="https://twitter.com/Jhouck1230"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-	      </ul>
-	      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-	    </div>
-	  </nav>
-	</div> -->
-
-	<ui-view></ui-view>
-
-  <div id="resume" class="modal">
-    <div class="modal-content" style="overflow:auto; -webkit-overflow-scrolling:touch">
-      <h4>Josh Houck's Resume</h4>
-			<iframe style="width: 100%; height: 700px;" src="/JoshHouckResume.pdf#zoom=100"></iframe>
+  </head>
+  <body ng-app='webApp' ng-controller='mainCtrl' class="">
+    <div class="row">
+      <div class="col s12 m8 offset-m2 center-align">
+        <div id="pictureName">
+          <div class="row">
+            <div class="col s12 l8 offset-l2">
+              <img src="/css/images/Selfie.jpg" class="circle responsive-img">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 l8 offset-l2">
+              <h1 id='name'>Josh Houck</h1>
+              <h2><i>Full Stack Developer</i></h2>
+            </div>
+          </div>
+        </div>
+        <div id='descRow' class="row">
+          <div class="col s12">
+            <div class="row">
+              <div class="col s12 l4">
+                <h3>Energetic Developer</h3>
+              </div>
+              <div class="col s12 l4">
+                 <h3>Excellent Communicator</h3>
+              </div>
+              <div class="col s12 l4">
+                <h3>Enthusiastic Learner</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='contactCard' class="row">
+          <div class="col s12 l6 offset-l3">
+            <h3 class="card-title contactMe"><b>Reach Out to Me</b></h3>
+            <p class="flow-text"><a href="mailto:me@joshhouck.com">me@joshhouck.com</a></p>
+            <p class="flow-text"><a href="tel:3047032551">304.703.2551</a></p>
+            <p class="flow-text">Washington D.C. Area</p>
+            <a class="modal-trigger" href="#resume" modal>Resume</a>
+            <a href="https://www.linkedin.com/in/joshua-houck-5588a663"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/JHouck1230"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/Jhouck1230"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
-</body>
+    <div class="row">
+      <h4>
+        <a ui-sref='flashcards'>Flashcards</a>
+        <a ui-sref='drawSomething'>Draw Something</a>
+        <a ui-sref='countGame'>Counting Game</a>
+        <a ui-sref='foodle'>foodle.</a>
+        <a ui-sref='car2Hot'>Car2Hot</a>
+      </h4>
+      <ui-view></ui-view>
+    </div>
+    <div id="resume" class="modal">
+      <div class="modal-content" style="overflow:auto; -webkit-overflow-scrolling:touch">
+        <h4>Josh Houck's Resume</h4>
+  			<iframe style="width: 100%; height: 700px;" src="/JoshHouckResume.pdf#zoom=100"></iframe>
+      </div>
+    </div>
+  </body>
 </html>
