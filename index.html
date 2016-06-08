@@ -68,13 +68,20 @@
       </div>
     </div>
     <div class="row">
-      <h4>
-        <a ui-sref='flashcards'>Flashcards</a>
-        <a ui-sref='drawSomething'>Draw Something</a>
-        <a ui-sref='countGame'>Counting Game</a>
-        <a ui-sref='foodle'>foodle.</a>
-        <a ui-sref='car2Hot'>Car2Hot</a>
-      </h4>
+
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class='brand-logo'>Logo</a>
+          <ul id="nav-mobile" class="brand-logo center">
+            <li><a ui-sref='foodle'>foodle.</a></li>
+            <li><a ui-sref='flashcards'>Flashcards</a></li>
+            <li><a ui-sref='drawSomething'>Draw Something</a></li>
+            <li><a ui-sref='countGame'>Counting Game</a></li>
+            <li><a ui-sref='car2Hot'>Car2Hot</a></li>
+          </ul>
+        </div>
+      </nav>
+
       <ui-view></ui-view>
     </div>
     <div id="resume" class="modal">
