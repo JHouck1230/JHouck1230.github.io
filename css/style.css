@@ -9,7 +9,7 @@ nav {
 img.responsive-img, video.responsive-video {
   max-width: 30%;
   height: auto;
-  margin: 27%;
+  /*margin: 27%;*/
 }
 
 .logoImg {
@@ -27,4 +27,16 @@ img.responsive-img, video.responsive-video {
 nav {
   max-width: 117vh;
   margin: 0 auto;
+}
+
+#selfie {
+  max-height: 22vh;
+}
+
+.fa {
+  margin-right: 2%;
+}
+
+p.flow-text {
+  margin: 0%;
 }
