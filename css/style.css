@@ -23,3 +23,8 @@ img.responsive-img, video.responsive-video {
 .logoDiv {
   text-align: center;
 }
+
+nav {
+  max-width: 117vh;
+  margin: 0 auto;
+}
